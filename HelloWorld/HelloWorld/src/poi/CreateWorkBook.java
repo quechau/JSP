@@ -16,5 +16,6 @@ public class CreateWorkBook {
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 		}
+		wb.close();
 	}
 }
